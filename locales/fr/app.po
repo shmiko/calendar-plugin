@@ -1,0 +1,144 @@
+# 
+# Translators:
+# xhelty19 <baptiste.dixneuf@gmail.com>, 2015
+# Fabzoul <fabzoul.web@netcourrier.com>, 2015
+# Jonathan Debétaz <redkill2108@saphir-studio.net>, 2015
+# ralmn <ranger_tigre@hotmail.fr>, 2015
+# San37 <contact@san41.eu>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: dashboard\n"
+"PO-Revision-Date: 2015-07-27 19:10+0000\n"
+"Last-Translator: Jonathan Debétaz <redkill2108@saphir-studio.net>\n"
+"Language-Team: French (http://www.transifex.com/projects/p/dashboardparty/language/fr/)\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: index.html:106
+msgid "All Day"
+msgstr "Toute la journée "
+
+#: google/view.html:40 index.html:25 index.html:26 index.html:30 index.html:8
+#: widget/nextEvent-config.html:19
+msgid "Calendar"
+msgstr "Calendrier "
+
+#: google/view.html:27
+msgid "Calendar name"
+msgstr "Nom du calendrier"
+
+#: widget/nextEvent-config.html:4
+msgid "Calendar NextEvent"
+msgstr "Prochain événement du calendrier"
+
+#: google/view.html:2 index.html:2
+msgid "Calendar Settings"
+msgstr "Paramètres du calendrier"
+
+#: index.html:59
+msgid "Calendars"
+msgstr "Calendriers"
+
+#: index.html:115
+msgid "Close"
+msgstr "Fermer"
+
+#: google/view.html:35
+msgid "Color"
+msgstr "Couleur"
+
+#: widget/nextEvent-config.html:15
+msgid "Column width"
+msgstr "Largeur de colonne"
+
+#: index.html:35
+msgid "Delete"
+msgstr "Supprimer"
+
+#: index.html:116
+msgid "Delete event"
+msgstr "Supprimer cet évènement"
+
+#: index.html:96
+msgid "Description"
+msgstr "Description"
+
+#: google/view.html:43 index.html:34
+msgid "Edit"
+msgstr "Editer"
+
+#: google/view.html:21
+msgid "Edit Google Calendar"
+msgstr "Éditer le calendrier Google"
+
+#: google/view.html:31
+msgid "Email"
+msgstr "Email"
+
+#: index.html:88
+msgid "Events view"
+msgstr "Voir l’évènement"
+
+#: widget/nextEvent.html:11
+msgid "Goto calendar"
+msgstr "Aller au calendrier"
+
+#: google/view.html:6 index.html:29 index.html:6
+msgid "Home"
+msgstr "Acceuil"
+
+#: index.html:100
+msgid "Location"
+msgstr "Lieu"
+
+#: index.html:49
+msgid "New Event"
+msgstr "Nouvel évènement"
+
+#: widget/nextEvent.html:6
+msgid "No calendar are currently selected"
+msgstr "Aucun calendrier n'est actuellement séléctionné"
+
+#: widget/nextEvent.html:10
+msgid "No next event"
+msgstr "Aucun événement à venir"
+
+#: widget/nextEvent.html:7
+msgid "Please select your calendar on <a href=\"#/profile\">your profile</a>"
+msgstr "Merci de sélectionnez dans <a href=\"#/profile\">votre profile</a>"
+
+#: index.html:117 widget/nextEvent-config.html:24
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: google/view.html:7 index.html:7
+msgid "Settings"
+msgstr "Paramètres"
+
+#: index.html:20
+msgid "Sign in with Google"
+msgstr "Connectez-vous avec Google"
+
+#: index.html:110
+msgid "Start and end date"
+msgstr "Date de début et de fin"
+
+#: index.html:92
+msgid "Title"
+msgstr "Titre"
+
+#: index.html:38
+msgid ""
+"To register a calendar go <a href=\"#/settings/calendar\">on the settings "
+"page.</a>"
+msgstr "Pour ajouter un calendrier allez sur <a href=\"#/settings/mailbox\"> la page de paramètres.</a>"
+
+#: index.html:50
+msgid "Toggle Dropdown"
+msgstr "Menu Déroulant"
+
+#: index.html:37
+msgid "You don't have register calendar !"
+msgstr "Vous n'avez pas enregistré de calendrier !"

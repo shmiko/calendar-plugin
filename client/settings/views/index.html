@@ -1,0 +1,45 @@
+<section class="content-header">
+  <h1 translate>
+    Calendar Settings
+  </h1>
+  <ol class="breadcrumb">
+    <li><a href="#"><i class="fa fa-dashboard"></i> <translate>Home</translate></a></li>
+    <li translate>Settings</li>
+    <li class="active" translate>Calendar</li>
+  </ol>
+</section>
+
+
+
+<!-- Main content -->
+<section class="content">
+  <div class="row">
+    <div class="col-md-3">
+      <!-- <a href="#/settings/calendar/create" class="btn btn-primary btn-block margin-bottom">Create</a> -->
+      <a href="calendar/auth/google" class="btn btn-block btn-social btn-google-plus" ng-show="globalSettings.mail.MailBox.googleLoginEnable">
+        <i class="fa fa-google-plus"></i> <translate>Sign in with Google</translate>
+      </a>
+    </div><!-- /.col -->
+    <div class="col-md-9">
+      <div class="box box-primary">
+        <div class="box-header with-border">
+          <h3 class="box-title" translate>Calendar</h3>
+        </div><!-- /.box-header -->
+        <div class="box-body no-padding">
+          <div class="table-responsive mailbox-messages">
+            <table class="table table-hover table-striped">
+              <tbody>
+                <tr ng-repeat="calendar in calendars">
+                  <td class="mailbox-sender"><b>{{calendar.name}}</b></td>
+                  <td style="cursor:pointer;" ng-click="edit(calendar)"><i class="fa fa-pencil"></i> <translate>Edit</translate></td>
+                  <td style="cursor:pointer;" ng-click="delete(calendar)"><i class="fa fa-trash-o"></i> <translate>Delete</translate></td>
+                </tr>
+
+              </tbody>
+            </table><!-- /.table -->
+          </div><!-- /.mail-box-messages -->
+        </div><!-- /.box-body -->
+      </div><!-- /. box -->
+    </div><!-- /.col -->
+  </div><!-- /.row -->
+</section><!-- /.content -->

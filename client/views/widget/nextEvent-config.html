@@ -1,0 +1,35 @@
+<div ng-controller="widget.configController">
+  <div class="box box-solid collapsed-box" >
+  <div class="box-header with-border" style="background-color:{{ getCalendarById(widget.settings.calendar).color }};">
+      <b translate>Calendar NextEvent</b> "{{getCalendarById(widget.settings.calendar).name}}"
+      <div class="box-tools pull-right">
+
+        <button class="btn btn-box-tool" data-widget="collapse"><i style="color:black;" class="fa fa-plus"></i></button>
+        <button class="btn btn-box-tool" ng-click="delete()"><i style="color:black;" class="fa fa-times"></i></button>
+      </div>
+    </div>
+    <div class="box-body">
+      <div>
+        <form ng-submit="save()">
+          <div class="form-group">
+            <label for="" translate>Column width</label>
+            <input type="number" min="1" max="12" ng-model="widget.colWidth">
+          </div>
+          <div class="form-group">
+            <label for="" translate>Calendar</label>
+            <select ng-model="widget.settings.calendar" ng-options="calendar._id as calendar.name for calendar in calendars">
+            </select>
+          </div>
+
+          <button type="submit" translate class="btn btn-primary">Save</button>
+        </form>
+
+      </div>
+    </div>
+  </div>
+
+
+  <script>
+    $.AdminLTE.boxWidget.activate();
+  </script>
+</div>

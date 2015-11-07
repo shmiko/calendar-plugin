@@ -1,0 +1,139 @@
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: dashboard\n"
+"PO-Revision-Date: 2015-07-23 16:02+0000\n"
+"Last-Translator: ralmn <ranger_tigre@hotmail.fr>\n"
+"Language-Team: Arabic (http://www.transifex.com/projects/p/dashboardparty/language/ar/)\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: index.html:106
+msgid "All Day"
+msgstr ""
+
+#: google/view.html:40 index.html:25 index.html:26 index.html:30 index.html:8
+#: widget/nextEvent-config.html:19
+msgid "Calendar"
+msgstr ""
+
+#: google/view.html:27
+msgid "Calendar name"
+msgstr ""
+
+#: widget/nextEvent-config.html:4
+msgid "Calendar NextEvent"
+msgstr ""
+
+#: google/view.html:2 index.html:2
+msgid "Calendar Settings"
+msgstr ""
+
+#: index.html:59
+msgid "Calendars"
+msgstr ""
+
+#: index.html:115
+msgid "Close"
+msgstr ""
+
+#: google/view.html:35
+msgid "Color"
+msgstr ""
+
+#: widget/nextEvent-config.html:15
+msgid "Column width"
+msgstr ""
+
+#: index.html:35
+msgid "Delete"
+msgstr ""
+
+#: index.html:116
+msgid "Delete event"
+msgstr ""
+
+#: index.html:96
+msgid "Description"
+msgstr ""
+
+#: google/view.html:43 index.html:34
+msgid "Edit"
+msgstr ""
+
+#: google/view.html:21
+msgid "Edit Google Calendar"
+msgstr ""
+
+#: google/view.html:31
+msgid "Email"
+msgstr ""
+
+#: index.html:88
+msgid "Events view"
+msgstr ""
+
+#: widget/nextEvent.html:11
+msgid "Goto calendar"
+msgstr ""
+
+#: google/view.html:6 index.html:29 index.html:6
+msgid "Home"
+msgstr ""
+
+#: index.html:100
+msgid "Location"
+msgstr ""
+
+#: index.html:49
+msgid "New Event"
+msgstr ""
+
+#: widget/nextEvent.html:6
+msgid "No calendar are currently selected"
+msgstr ""
+
+#: widget/nextEvent.html:10
+msgid "No next event"
+msgstr ""
+
+#: widget/nextEvent.html:7
+msgid "Please select your calendar on <a href=\"#/profile\">your profile</a>"
+msgstr ""
+
+#: index.html:117 widget/nextEvent-config.html:24
+msgid "Save"
+msgstr ""
+
+#: google/view.html:7 index.html:7
+msgid "Settings"
+msgstr ""
+
+#: index.html:20
+msgid "Sign in with Google"
+msgstr ""
+
+#: index.html:110
+msgid "Start and end date"
+msgstr ""
+
+#: index.html:92
+msgid "Title"
+msgstr ""
+
+#: index.html:38
+msgid ""
+"To register a calendar go <a href=\"#/settings/calendar\">on the settings "
+"page.</a>"
+msgstr ""
+
+#: index.html:50
+msgid "Toggle Dropdown"
+msgstr ""
+
+#: index.html:37
+msgid "You don't have register calendar !"
+msgstr ""

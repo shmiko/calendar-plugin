@@ -1,0 +1,14 @@
+<div ng-controller="widget.controller">
+  <div class="info-box" style="background-color: {{calendar.color}};" >
+    <span class="info-box-icon"><i class="fa fa-calendar"></i></span>
+    <div class="info-box-content">
+      <span class="info-box-text" ng-show="calendar">{{calendar.name}}</span>
+      <span class="info-box-text" ng-hide="calendar" translate>No calendar are currently selected</span>
+      <p ng-hide="calendar" translate>Please select your calendar on <a href="#/profile">your profile</a></p>
+
+      <span class="info-box-number" ng-show="nextEvent"><i>{{nextEvent.startDate}}</i> : {{nextEvent.summary}}</span>
+      <p ng-hide="nextEvent" translate>No next event</p>
+      <a href="#/calendar" style="color:white;" ><translate>Goto calendar</translate> <i class="fa fa-arrow-circle-right"></i></a>
+    </div><!-- /.info-box-content -->
+  </div><!-- /.info-box -->
+</div>
