@@ -1,0 +1,26 @@
+{
+  "name": "calendar-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DashboardParty/calendar-plugin.git"
+  },
+  "author": "ralmn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DashboardParty/calendar-plugin/issues"
+  },
+  "homepage": "https://github.com/DashboardParty/calendar-plugin#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-angular-gettext": "^2.1.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-rename": "^1.2.2"
+  }
+}

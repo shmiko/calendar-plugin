@@ -1,0 +1,4 @@
+node_modules/
+*.zip
+detective.js
+sftp-config.json
