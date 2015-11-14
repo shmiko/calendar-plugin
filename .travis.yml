@@ -1,0 +1,26 @@
+language: node_js
+
+sudo: true
+
+node_js:
+- '0.12'
+
+install:
+- npm install
+#- npm install -g gulp # You can install gulp (or other build sytem)
+
+script:
+#- gulp  #Build your project
+
+after_success:
+- rm -r node_modules
+- npm install --prod
+- PWDBD=$(pwd)
+- cd ..
+- echo "$PWDBD"
+- zip -r build.zip $(basename $PWDBD) --exclude=*.git*
+- REPO="DashboardParty_calendar-plugin"
+- BRANCH=$([ -n "$TRAVIS_TAG" ] && echo "tag" || echo "$TRAVIS_BRANCH")
+- COMMIT=$([ -n "$TRAVIS_TAG" ] && echo "$TRAVIS_TAG" || echo "$TRAVIS_COMMIT")
+- echo "http://repo.dashboard.party/repo/$REPO/$BRANCH/$COMMIT/newBuild"
+- curl -i -F authkey="$REPOAUTH" -F filedata=@build.zip http://repo.dashboard.party/repo/$REPO/$BRANCH/$COMMIT/newBuild
