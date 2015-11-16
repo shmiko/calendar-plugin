@@ -1,5 +1,5 @@
 var Calendar = require('../models/calendar.js');
-var config = require('../../../../config/config.js');
+var config = require('../../../../../config/config.js');
 
 var google = require('googleapis');
 var googleAuth = require('google-auth-library');
